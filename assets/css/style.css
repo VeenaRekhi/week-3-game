@@ -1,0 +1,96 @@
+
+body  {
+	         height:100%;
+	         width:100%;
+	       }
+
+h1  {
+	 text-align: center;
+	 font-size: 36px;
+	 font-family: 'Monoton', 'Italianno', 'Niconne&subset=latin-ext';
+	 color: #660000;
+     text-shadow: 5px 5px 8px #B8860B;   }
+
+h2  {
+     text-align: center;
+	 font-size: 32px;
+	 font-family: 'Monoton', 'Italianno', 'Niconne&subset=latin-ext';
+	 color: #660000;
+     text-shadow: 5px 5px 8px #B8860B;  
+}
+
+h3, p {
+	text-align: center;
+	font-size: 28px;
+	font-family: 'Monoton', 'Italianno', 'Niconne&subset=latin-ext';
+	color: 	#660000;
+    text-shadow: 5px 5px 8px #B8860B;   
+}
+
+span  {
+	color: #660000;
+	text-align: center;
+	font-size: 28px;
+	font-family: 'Monoton', 'Italianno', 'Niconne&subset=latin-ext';
+    text-shadow: 5px 5px 8px #B8860B; 
+}
+
+
+.container   {
+	width: 100%;
+	height: 100%;
+	border-radius: 5px;
+	padding-top: 10px;
+	background-image: url("../images/girl-face.jpeg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	opacity: 1;
+	padding: 10 10 10 10;
+	margin: 10% auto;
+	text-align: center;
+    
+}
+
+#write-up {
+	width: 35%;
+	height: 80%;
+	margin-top: 20px;
+	margin-left: 10px;
+	float: left;
+	position: realtive;
+}
+
+#page-header  {
+	float: left;
+	position: relative;
+
+
+
+}
+.game-image  {
+	margin-right: 10px;
+    float: left;
+	width: 500px;
+	height: 500px;
+	position: relative;
+}
+
+#userletters   a, i {
+	color: #660000;
+    cursor: pointer;
+}
+
+#canvas  {  
+	 border:1px solid: #d3d3d3;
+	 float: left;
+	 position: absolute;
+
+}
+.wrapper  {
+	background-color: red;
+}
+
+#usedletters a u(deactivated/used){
+	color: white;
+	text-decoration: underline;
+}

@@ -2,9 +2,94 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title>JavaScript Hangman Game 2016</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="./assets/css/style.css"> 
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Italianno|Monoton|Niconne&subset=latin-ext">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
 </head>
 <body>
+    <div class="container">
+    <section class="back-img"></section>
+      <div class="container-game" id="write-up">
+        <div class="row">
+          <div class="col-md-12 col-md-offset-1">
+            <div id="page-header">
+          
+              <h1><span><strong> WORDS!  USE WISELY!!</strong></span></h1>
+              <br>
+            </div>
+
+            <div>
+                <h2><strong><span>Press  any  key  to  start!</span></strong></h2>
+                <br>
+            </div>
+
+            <div> 
+                <h2><span id="guesses"></span></h2>
+                <br>
+                <h3><strong>Lives <strong><span id="lives">#</span></strong> Left!</strong></h3>
+                  <br>
+                  <h3>Letters <strong><span id="display">0</span></strong> In This Word!</h3>
+                  <br>
+            </div> 
+
+            <div>
+                <h3><strong><span id="WORD"></span></strong></h3><br>
+             
+                <h2> Guessed: <span id="usedLetters"></span></h2>
+                <p><strong><span id="nextWord"> "Play Again!" </span></strong></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-game" id="puzzle-image">
+          <div class="row">
+              <div class="game-image">
+                  <div class="col-md-12 col-md-offset-1">
+                      <canvas id="canvas" width="500" height="500">
+                      </canvas>
+                      <h3><span>Wanna Play??</span></h3>
+                      <div class="wrapper">
+                      <div class="puzzle-pieces">
+                      <div class="col-md-3 col-md-offset-3">
+                      <img id="daretowin" src="./assets/images/daretowin.jpeg" width="175px" height="175px">
+                      </div>
+                      <div class="col-md-3 col-md-offset-3">
+                      <img id="loser" src="./assets/images/loser.jpeg" width="175px" height="175px">
+                      </div>
+                       <div class="col-md-3 col-md-offset-3">
+                      <img id="winningpost5" src="./assets/images/winningpost5.jpeg" width="175px" height="175px">
+                      </div>
+                      <div class="col-md-3 col-md-offset-3">
+                      <img id="winning" src="./assets/images/winning.jpeg" width="175px" height="175px">
+                      </div>
+         
+                         <div class="col-md-3 col-md-offset-3">
+                      <img id="gameover" src="./assets/images/gameover.jpeg" width="175px" height="175px">
+                      </div>
+                     
+                      <div class="col-md-3 col-md-offset-3">
+                      <img id="losing" src="./assets/images/losing.jpeg" width="175px" height="175px">
+                      </div>
+                 
+                
+                      </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+<script type="text/javascript" src="./assets/javascript/game1.js"></script>
 
 </body>
+
 </html>
+
