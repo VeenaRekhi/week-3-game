@@ -49,7 +49,7 @@
 
  //alert("hello");
 // To reset the game, set the usedLetters=0, if win, then Lives=6, if lose then,Lives=-1.
-//After user have used 6 lives send an alert message to the user to strat the game again.
+//After user have used 6 lives send an alert message to the user to start the game again.
 if (resetGame == 1)
 {   
     choice = Math.floor(Math.random()*40);
