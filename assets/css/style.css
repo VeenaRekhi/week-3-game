@@ -57,16 +57,56 @@ span  {
 	margin-top: 20px;
 	margin-left: 10px;
 	float: left;
-	position: realtive;
+	position: relative;
+}
+
+nav    {
+	    float: left;
+	    margin-top: 25px;
+	    text-shadow: 5px 5px 8px #660000;
+    }
+
+nav a  {
+        color: #660000;
+        text-decoration: none;
+        text-shadow: 5px 5px 8px #660000;
+        font-family: 'Georgia', Times, Times New Roman, serif;
+	    font-size: 32px;
+	    height: 40px;
+        margin-left: 15px;
+        display: inline-block;
+        line-height: 32px;
+    }
+
+nav a:first child  {
+	border-left: 0 none;
+	text-shadow: 5px 5px 8px #660000;
+    }
+
+.gameLives  {
+	clear: both;
+	float: left;
+	position: relative;
+}
+
+.gameboard  {
+	clear: both;
+	float: left;
+	position: relative;
+}
+
+.guessing  {
+	clear: both;
+	float: left;
+	position: relative;
 }
 
 #page-header  {
+	clear: both;
 	float: left;
 	position: relative;
-
-
-
 }
+
 .game-image  {
 	margin-right: 10px;
     float: left;
@@ -86,11 +126,15 @@ span  {
 	 position: absolute;
 
 }
-.wrapper  {
-	background-color: red;
-}
 
 #usedletters a u(deactivated/used){
 	color: white;
 	text-decoration: underline;
+}
+
+#playagain, #restart  {
+	color: #660000;
+     border:1px solid: #d3d3d3;
+	 float: left;
+	 position: relative;
 }

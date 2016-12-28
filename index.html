@@ -16,36 +16,35 @@
 </head>
 <body>
     <div class="container">
-    <section class="back-img"></section>
+    
       <div class="container-game" id="write-up">
         <div class="row">
           <div class="col-md-12 col-md-offset-1">
+
             <div id="page-header">
-          
               <h1><span><strong> WORDS!  USE WISELY!!</strong></span></h1>
-              <br>
+              <h2><strong><span>Press  any  key  to  start!</span></strong></h2>
             </div>
 
-            <div>
-                <h2><strong><span>Press  any  key  to  start!</span></strong></h2>
-                <br>
+            <div id="board" class="gameboard">
+              <nav>
+                <a href="#"><strong><h3>Wins:<span id="wins"> #</span></h3></strong></a>
+                <a href="#"><strong><h3>Losses:<span id="losses"> #</span></h3></strong></a>
+              </nav>
             </div>
 
-            <div> 
-                <h2><span id="guesses"></span></h2>
-                <br>
-                <h3><strong>Lives <strong><span id="lives">#</span></strong> Left!</strong></h3>
-                  <br>
-                  <h3>Letters <strong><span id="display">0</span></strong> In This Word!</h3>
-                  <br>
+            <div id="board" class="gameLives"> 
+              <h2><span id="guesses"></span></h2>
+              <h3><strong>Lives <strong><span id="lives">#</span></strong> Left!</strong></h3>
+              <h3>Letters <strong><span id="display">0</span></strong> In This Word!</h3>
             </div> 
 
-            <div>
-                <h3><strong><span id="WORD"></span></strong></h3><br>
-             
-                <h2> Guessed: <span id="usedLetters"></span></h2>
-                <p><strong><span id="nextWord"> "Play Again!" </span></strong></p>
+            <div id="board" class="guessing">
+              <h3><strong><span id="WORD"></span></strong></h3>
+              <h2> Guessed: <span id="usedLetters"></span></h2>
+              <p><strong><span id="nextWord"> "Play Again!" </span></strong></p>
             </div>
+   
           </div>
         </div>
       </div>
@@ -85,6 +84,15 @@
                   </div>
               </div>
           </div>
+  
+      <div class="container-restart" id="playagain">
+        <div class="col-md-8 col-md-offset-6" >
+            <strong><img src="assets/images/img5.jpeg" id="restart" width="150" height="75" type="button" class="btn btn-restart" onclick="myFunction()" value="restart"></img></strong>
+        </div>
+      </div>
+    
+      
+
       </div>
 
 <script type="text/javascript" src="./assets/javascript/game1.js"></script>
